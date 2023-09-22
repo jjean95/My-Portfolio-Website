@@ -1,3 +1,46 @@
+:root {
+  --header-font-family: "Raleway", sans-serif;
+  --second-font-family: "Poppins", sans-serif;
+  --primary-color: rgb(249, 223, 238);
+  --button-color: rgb(199, 6, 113);
+}
+
+.hero {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 100px 0;
+}
+h1,
+p {
+  font-family: var(--header-font-family);
+}
 h1 {
-  color: aqua;
+  color: black;
+  font-size: 90px;
+  font-weight: bold;
+}
+h2 {
+  color: grey;
+  font-size: 40px;
+  font-weight: bold;
+}
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+h2,
+h3 {
+  font-family: var(--second-font-family);
+  font-size: 27px;
+}
+.hero button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: var(--button-color);
+  border: 1px solid var(--button-color);
+}
+.hero button:hover {
+  background-color: rgb(255, 255, 255);
+  color: var(--button-color);
+  border: 1px solid var(--button-color);
 }
