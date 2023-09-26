@@ -33,6 +33,13 @@ h3 {
   font-family: var(--second-font-family);
   font-size: 27px;
 }
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--button-color);
+}
+.navbar-light .navbar-nav .nav-link.active:hover {
+  color: #ffb9c5;
+}
+
 .hero button {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -54,6 +61,11 @@ h3 {
   text-decoration: none;
   padding: 20px 15px;
 }
+.primary-link:hover {
+  background-color: rgb(255, 255, 255);
+  color: var(--button-color);
+  border: 1px solid var(--button-color);
+}
 .foot {
   margin: 30px 20px;
   padding: 50px;
@@ -65,4 +77,9 @@ h3 {
   background-color: var(--button-color);
   border-radius: 50px;
   color: white;
+}
+.fa:hover {
+  background-color: rgb(255, 255, 255);
+  color: var(--button-color);
+  border: 1px solid var(--button-color);
 }
