@@ -1,7 +1,7 @@
 :root {
   --header-font-family: "Raleway", sans-serif;
   --second-font-family: "Poppins", sans-serif;
-  --primary-color: rgb(249, 223, 238);
+  --primary-color: #ffb9c5;
   --button-color: rgb(199, 6, 113);
 }
 
@@ -24,7 +24,7 @@ h2 {
   font-size: 40px;
   font-weight: bold;
 }
-p {
+.hero p {
   font-size: 20px;
   font-weight: bold;
 }
@@ -43,4 +43,26 @@ h3 {
   background-color: rgb(255, 255, 255);
   color: var(--button-color);
   border: 1px solid var(--button-color);
+}
+.primary-link {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: var(--button-color);
+  border: 1px solid var(--button-color);
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  padding: 20px 15px;
+}
+.foot {
+  margin: 30px 20px;
+  padding: 50px;
+  border-radius: 4px;
+  background-color: var(--primary-color);
+}
+.fa {
+  padding: 10px;
+  background-color: var(--button-color);
+  border-radius: 50px;
+  color: white;
 }
