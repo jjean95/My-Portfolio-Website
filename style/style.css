@@ -19,7 +19,7 @@ h1 {
   font-size: 90px;
   font-weight: bold;
 }
-h2 {
+.hero h2 {
   color: #6e8093;
   font-size: 40px;
   font-weight: bold;
@@ -40,13 +40,15 @@ h3 {
   color: #ffb9c5;
 }
 
-.hero button {
+.hero button,
+.foot button {
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: var(--button-color);
   border: 1px solid var(--button-color);
 }
-.hero button:hover {
+.hero button:hover,
+.foot button:hover {
   background-color: rgb(255, 255, 255);
   color: var(--button-color);
   border: 1px solid var(--button-color);
@@ -67,14 +69,21 @@ h3 {
   border: 1px solid var(--button-color);
 }
 .foot {
-  margin: 30px 20px;
-  padding: 50px;
+  margin: 40px 40px;
+  padding: 40px;
   border-radius: 4px;
   background-color: var(--primary-color);
+}
+.foot h2 {
+  font-size: 40px;
+}
+.foot p {
+  font-size: 20px;
 }
 .fa {
   padding: 10px;
   background-color: var(--button-color);
+  border: 1px solid var(--button-color);
   border-radius: 50px;
   color: white;
 }
@@ -82,4 +91,11 @@ h3 {
   background-color: rgb(255, 255, 255);
   color: var(--button-color);
   border: 1px solid var(--button-color);
+}
+.email {
+  text-decoration: none;
+  color: var(--button-color);
+}
+i {
+  margin-right: 40px;
 }
