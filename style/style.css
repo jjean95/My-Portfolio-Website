@@ -1,7 +1,7 @@
 :root {
   --header-font-family: "Raleway", sans-serif;
   --second-font-family: "Poppins", sans-serif;
-  --primary-color: #ffb9c5;
+  --primary-color: #fde2e1;
   --button-color: rgb(199, 6, 113);
 }
 
@@ -20,7 +20,7 @@ h1 {
   font-weight: bold;
 }
 h2 {
-  color: grey;
+  color: #6e8093;
   font-size: 40px;
   font-weight: bold;
 }
