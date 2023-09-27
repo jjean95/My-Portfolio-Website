@@ -4,7 +4,7 @@
   --primary-color: #fde2e1;
   --button-color: rgb(199, 6, 113);
 }
-
+/*Index section*/
 .hero {
   background-color: var(--primary-color);
   text-align: center;
@@ -98,4 +98,23 @@ h3 {
 }
 i {
   margin-right: 40px;
+}
+
+/*About section*/
+.about-container {
+  margin: 90px;
+}
+.about-container h1 {
+  font-size: 50px;
+}
+.about-container button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: var(--button-color);
+  border: 1px solid var(--button-color);
+}
+.about-container button:hover {
+  background-color: rgb(255, 255, 255);
+  color: var(--button-color);
+  border: 1px solid var(--button-color);
 }
