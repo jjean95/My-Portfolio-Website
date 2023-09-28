@@ -123,3 +123,12 @@ i {
 .port-container {
   margin: 90px;
 }
+
+/*Contact section*/
+.contact-container {
+  margin: 90px;
+}
+.contact-container h2 {
+  font-size: 50px;
+  font-weight: bolder;
+}
