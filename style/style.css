@@ -35,6 +35,7 @@ h3 {
 }
 .navbar-light .navbar-nav .nav-link.active {
   color: var(--button-color);
+  font-weight: bolder;
 }
 .navbar-light .navbar-nav .nav-link.active:hover {
   color: #ffb9c5;
