@@ -33,12 +33,18 @@ h3 {
   font-family: var(--second-font-family);
   font-size: 27px;
 }
-.navbar-light .navbar-nav .nav-link.active {
-  color: var(--button-color);
-  font-weight: bolder;
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
 }
-.navbar-light .navbar-nav .nav-link.active:hover {
-  color: #ffb9c5;
+nav a {
+  text-decoration: none;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--button-color);
 }
 
 .hero button,
