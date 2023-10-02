@@ -33,6 +33,9 @@ h3 {
   font-family: var(--second-font-family);
   font-size: 27px;
 }
+.container {
+  margin-top: 10px;
+}
 nav li {
   display: inline;
   list-style: none;
@@ -41,6 +44,9 @@ nav li {
 }
 nav a {
   text-decoration: none;
+  font-family: var(--second-font-family);
+  font-weight: bold;
+  color: black;
 }
 nav a:hover,
 nav li.active a {
@@ -68,7 +74,7 @@ nav li.active a {
   border-radius: 4px;
   color: white;
   text-decoration: none;
-  padding: 20px 15px;
+  padding: 15px;
 }
 .primary-link:hover {
   background-color: rgb(255, 255, 255);
