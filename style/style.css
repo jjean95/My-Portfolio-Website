@@ -35,6 +35,12 @@ h3 {
 }
 .container {
   margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+nav {
+  padding: 20px 0;
 }
 nav li {
   display: inline;
@@ -113,6 +119,7 @@ footer .social-links a:hover {
   color: var(--button-color);
   border: 1px solid var(--button-color);
 }
+
 /*About section*/
 .about-container {
   margin: 90px;
@@ -131,7 +138,12 @@ footer .social-links a:hover {
   color: var(--button-color);
   border: 1px solid var(--button-color);
 }
-
+.img-fluid {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+  height: 70%;
+}
 /*Portfolio section*/
 .port-container {
   margin: 90px;
@@ -144,4 +156,12 @@ footer .social-links a:hover {
 .contact-container h2 {
   font-size: 50px;
   font-weight: bolder;
+}
+form {
+  padding: 30px;
+  border: 1px solid var(--button-color);
+  border-radius: 10px;
+}
+label {
+  color: var(--button-color);
 }
